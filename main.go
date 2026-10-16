@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var qwe int64 = 0
-	fmt.Scan(&qwe)
+	var qwe int64 = 50
 	fmt.Print(qwe)
 }

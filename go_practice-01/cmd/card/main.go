@@ -5,9 +5,9 @@ import "fmt"
 func main() {
 	var name string = "Николай"
 	var group string = "Учебная-01"
-	course := "Бэкенд-разработка на языке Go"
+	const course = "Бэкенд-разработка на языке Go"
 	finished := 1
-	const interesting = true
+	interesting := true
 	fmt.Println("Участник:", name)
 	fmt.Println("Группа:", group)
 	fmt.Println("Курс:", course)

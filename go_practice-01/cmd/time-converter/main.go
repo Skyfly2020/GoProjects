@@ -10,8 +10,10 @@ func main() {
 		if minutes < 0 {
 			fmt.Println("отрицательные значения не допустимы")
 		} else {
-			fmt.Printf("Полных часов: %d \n", minutes/60)
-			fmt.Printf("Оставшихся минут: %d \n", minutes%60)
+			hours := minutes / 60
+			miniminutes := minutes % 60
+			fmt.Printf("Полных часов: %d \n", hours)
+			fmt.Printf("Оставшихся минут: %d \n", miniminutes)
 		}
 	} else {
 		fmt.Println("Ошибка чтения числа")

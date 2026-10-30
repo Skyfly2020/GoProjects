@@ -7,10 +7,10 @@ func main() {
 	var group string = "Учебная-01"
 	course := "Бэкенд-разработка на языке Go"
 	finished := 1
-	interesting := true
+	const interesting = true
 	fmt.Println("Участник:", name)
 	fmt.Println("Группа:", group)
 	fmt.Println("Курс:", course)
 	fmt.Println("Завершено работ:", finished)
-	fmt.Println("Интерес к бэкенду:", interesting)
+	fmt.Printf("Интерес к бэкенду: %t\n", interesting)
 }
